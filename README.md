@@ -2,6 +2,8 @@
 
 Welcome to **QI & JIN**, a minimalist black & white themed fashion e-commerce website. This is a simple front-end and partially functional back-end prototype built for learning and design purposes.
 
+![Homepage Screenshot](https://github.com/IvannCheah/Simple-Fashion-Eshop/blob/01a51b62cd8841579648e514bc263e8a62860fdb/userinterface.png)
+
 ## 📌 Overview
 
 QI & JIN is designed as a stylish online fashion store showcasing products under three main categories:
