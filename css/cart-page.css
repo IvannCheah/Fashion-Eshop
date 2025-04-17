@@ -1,0 +1,93 @@
+.small-container{
+ margin: 40px auto;
+ font-size: 25px;
+}
+
+table{
+ width: 100%;
+ border-collapse: collapse;
+}
+
+.cart-info{
+ display: flex;
+ flex-wrap: wrap;
+}
+
+th{
+ text-align: left;
+ padding: 5px;
+ color: #fff;
+ background: rgb(47, 47, 47);
+ font-weight: normal;
+}
+
+td{
+ padding: 10px 5px;
+ font-size: 20px;
+}
+
+td input{
+ width: 40px;
+ height: 30px;
+ padding: 5px;
+}
+
+td img{
+ width: 200px;
+ height: 200px;
+ margin-right: 10px;
+}
+
+td p{
+ font-size: 23px;
+}
+
+td small{
+ font-size: 18px;
+}
+
+td a{
+ color: #ff523b;
+ font-size: 15px;
+ text-decoration: none;
+}
+
+.total-price{
+ display: flex;
+ justify-content: flex-end;
+}
+
+.total-price table{
+ width: 100%;
+ max-width: 400px;
+ font-size: 18px;
+}
+
+td:last-child{
+ text-align: right;
+}
+
+th:last-child{
+ text-align: right;
+}
+
+.ckt-button{
+ position: relative;
+ bottom: 45px;
+ float: right;
+ width: 400px;
+ height: 40px;
+ background: rgb(118, 174, 238);
+ border: none;
+ border-radius: 10px;
+ cursor: pointer;
+ font-size: 18px;
+}
+
+/* On screens that are 600px wide or less*/
+@media screen and (max-width: 600px) {
+ body{
+  width: 750px;
+  height: 100%;
+ }
+}

@@ -1,0 +1,26 @@
+.search-results{
+ width: 100%;
+ padding: 60px 0;
+}
+
+.heading{
+ font-size: 20px;
+ font-weight: 700;
+ margin-bottom: 40px;
+ padding: 0 10vw;
+}
+
+.product-container{
+ display: grid;
+ grid-template-columns: repeat(4, 1fr);
+ height: auto;
+ grid-row-gap: 40px;
+}
+
+/* On screens that are 600px wide or less*/
+@media screen and (max-width: 600px) {
+ body{
+  width: 750px;
+  height: 100%;
+ }
+}
